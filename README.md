@@ -27,6 +27,6 @@ Second, I only fine-tuned Object Dection model, you can use [train_object_detect
 
 Last, I fine-tuned a model which contain OCR and Object Dection ability, you can use [train_together.jsonl](JSONL/train_together.jsonl), [dev_test_OCR_OD.jsonl](JSONL/dev_test_OCR_OD.jsonl) to achieve this goal
 
-You may can use OCR_OD_infer to infer and evaluate your model.
+You may can use [OCR_OD_infer](JSONL/OCR_OD_infer) to infer and evaluate your model.
 
 If you want other type of JSONL, the [convert.py](./convert.py) may helpful for you
